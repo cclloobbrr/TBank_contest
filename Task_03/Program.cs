@@ -11,6 +11,7 @@ namespace Task3
             int n, t, x, L, answer;
             int[] n_t = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             n = n_t[0];
+            //Время, через которое уйдёт выбраный человек
             t = n_t[1];
             int[] floors = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             x = int.Parse(Console.ReadLine()) - 1;
